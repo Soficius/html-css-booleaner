@@ -20,9 +20,6 @@ body{
 header h1{
     margin-bottom: 0px;
 }
-header p{
-    margin-top: 0px;
-}
 
 table {
     table-layout: fixed;
@@ -35,6 +32,26 @@ thead {
 tbody tr:nth-child(odd) {background: #b2ebf2}
 tbody tr:nth-child(even) {background: #fff}
 
+.marginesotto {
+    margin-bottom: 0.5em;
+}
 .evidenziato{
     background: #FFFF00;
+}
+.celeste{
+    color: #2ea2d8;
+}
+.testopiccolo{
+    font-size: 80%;
+}
+.img{
+    position: relative;
+}
+.coverImgTop{
+    top: 1em;
+    left: 1em;
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
 }
