@@ -1,0 +1,40 @@
+/* logo e sfondo*/
+body{
+    margin: 0px;
+}
+
+#logo {
+    height: 60px;
+    background-image: url(../img/pattern.png);;
+    background-size: 20%;
+    background-color: lightskyblue;
+}
+
+#logo img {
+    width: 150px;
+    padding: 1em 0em 0em 15em;
+}
+.container {
+    padding: 0 15em;
+}
+header h1{
+    margin-bottom: 0px;
+}
+header p{
+    margin-top: 0px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+thead {
+    background: #2ea2d8;
+    color: white;
+}
+tbody tr:nth-child(odd) {background: #b2ebf2}
+tbody tr:nth-child(even) {background: #fff}
+
+.evidenziato{
+    background: #FFFF00;
+}
